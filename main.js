@@ -48,7 +48,7 @@ function handleFormSubmit(event) {
 function fetchBitcoinData(startDate, monthlyAmount) {
     const currentUnixTime = Math.floor(new Date().getTime() / 1000);
     const startUnixTime = Math.floor(new Date(startDate).getTime() / 1000);
-    const apiUrl = `https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=jpy&from=${startUnixTime}&to=${currentUnixTime}`;
+    const apiUrl = `https://api.coingecko.com/api/v3/coins/ethereum/market_chart/range?vs_currency=jpy&from=${startUnixTime}&to=${currentUnixTime}`;
 
     console.log("API URL: ", apiUrl);
 
@@ -110,7 +110,7 @@ function displayResults(data, monthlyAmount, startDate) {
             <p class="results-text">総購入金額：${investment.toLocaleString('ja-JP')} 円</p>
             <p class="results-important">現在の評価額：${value.toLocaleString('ja-JP')} 円</p>
             <p class="results-important">倍率：${multiple.toFixed(2)}倍</p>
-            <p class="results-btc">保有BTC：${btc.toFixed(8)} BTC</p>
+            <p class="results-btc">保有ETH：${btc.toFixed(8)} BTC</p>
             <details class="detail-history-d">
             <summary class="detail-history-s">購入履歴の詳細</summary>
             <table>
