@@ -1,20 +1,20 @@
 {
-    "name": "今日からビットコ",
-    "short_name": "今日からビットコ",
-    "description": "ビットコイン（Bitcoin, BTC）のドルコスト平均法に基づく積み立て効果をシミュレーション。過去の価格データを用いて、長期的なビットコイン投資のパフォーマンスを評価します。",
+    "name": "つみたてイーサ",
+    "short_name": "つみたてイーサ",
+    "description": "イーサリアム（Ethereum, ETH）のドルコスト平均法に基づく積み立て効果をシミュレーション。過去の価格データを用いて、長期的なクリプト投資のパフォーマンスを評価します。",
     "icons": [
         {
-            "src": "android-chrome-192x192.png",
+            "src": "android-chrome-192x192_eth.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "android-chrome-384x384.png",
+            "src": "android-chrome-384x384_eth.png",
             "sizes": "384x384",
             "type": "image/png"
         }
     ],
-    "theme_color": "#f7931a",
+    "theme_color": "#6B6B6B",
     "background_color": "#ffffff",
     "display": "standalone"
 }

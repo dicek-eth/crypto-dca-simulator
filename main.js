@@ -110,7 +110,7 @@ function displayResults(data, monthlyAmount, startDate) {
             <p class="results-text">総購入金額：${investment.toLocaleString('ja-JP')} 円</p>
             <p class="results-important">現在の評価額：${value.toLocaleString('ja-JP')} 円</p>
             <p class="results-important">倍率：${multiple.toFixed(2)}倍</p>
-            <p class="results-btc">保有ETH：${btc.toFixed(8)} BTC</p>
+            <p class="results-btc">保有ETH：${btc.toFixed(8)} ETH</p>
             <details class="detail-history-d">
             <summary class="detail-history-s">購入履歴の詳細</summary>
             <table>
@@ -118,7 +118,7 @@ function displayResults(data, monthlyAmount, startDate) {
                     <tr>
                         <th>日付</th>
                         <th>価格 (円)</th>
-                        <th>購入量 (BTC)</th>
+                        <th>購入量 (ETH)</th>
                     </tr>
                 </thead>
                 <tbody>
